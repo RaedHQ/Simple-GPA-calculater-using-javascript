@@ -1,0 +1,89 @@
+.GPAbody{background-color: #ebb000;}
+
+.GPAh1{
+    position: relative;
+    top: -25px;
+    font-size: 100px;
+    color:#5ce1e6;
+    text-align: center;
+    font-family:cursive;}
+
+.GPAp{position: relative;
+    text-align: center;
+    font-size: 38px;
+    top: -80px;
+    font-family: cursive;
+    color: #5ce1e6;}
+ 
+.GPAdiv{color: #5ce1e6;
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;}
+
+.table{position: relative;
+    top: -50px;
+    left: 780px;
+    border: #5ce1e6 4px;
+    border-style: solid ; 
+    font-size: 35px;
+    border-radius: 35px;
+    background-color: #5ce1e6;
+    color: #ebb000;}
+
+.subjectname{background-color: #5ce1e6;
+    border: #5ce1e6;
+    border-radius: 15px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;}
+
+.hours:active,.hours:hover,.grade:active,.grade:hover,.subjectname:active,.subjectname:hover{background-color: #53cdd1;}
+
+.grade,.hours{background-color: #5ce1e6;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    border: #5ce1e6;
+    border-radius: 8px;}
+
+.add{position: relative;
+    font-size: 25px;
+    top: -36px;
+    left: 400px;
+    background-color: #44c7cc;
+    border-color: black;
+    border-radius: 8px;
+    font-family: cursive;
+    text-align: center;}
+
+.add:hover,.add:active{background-color: #26a0d8;}
+
+.calculate{position: relative;
+    font-size: 25px;
+    top: -90px;
+    left: 100px;
+    background-color: #44c7cc;
+    border-color: black;
+    border-radius: 8px;
+    font-family: cursive;
+    text-align: center;}
+
+.calculate:hover,.calculate:active{background-color: #26a0d8;}    
+
+.clear{font-size: 25px;
+    background-color: #44c7cc;
+    border-color: black;
+    border-radius: 8px;
+    font-family: cursive;
+    text-align: center;}
+
+.clear:hover,.clear:active{color: red;
+    background-color: #26a0d8;} 
+     
+.GPAspace{position: absolute;
+    text-align: center;
+    font-size: 50px;
+    top: 420px;
+    left: 800px;
+      
+    color: black;}
