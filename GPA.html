@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GPA Calculater</title>
+    <link rel="stylesheet" href="calculater.css">
     <script src="Calculater.js"></script></head>
 
 </head>
@@ -18,7 +19,7 @@
         <input id="subjectname" class="subjectname" placeholder="Subject name" type="text"> 
         
         <label for="grade">Grade</label>
-        <select id="grade" >
+        <select class="grade" id="grade" >
             <option value="5">A+</option>
             <option value="4.75">A</option>
             <option value="4.5">B+</option>
@@ -48,26 +49,26 @@
         
         </select> <br>
 
-        <button id="add" onclick="return addf()">add</button><br><br><br><br>
+        <button class="add" id="add" onclick="return addf()">ADD</button><br><br><br><br>
         
-        <button id="calculate" onclick="return GPA()">Calculate</button>
+        <button class="calculate" id="calculate" onclick="return GPA()">Calculate</button>
 
 
 
-        <table id="table">
+        <table class="table" id="table">
             <tr>
                 <thead>
                 <th>subjectname</th>
-                <th>points</th>
+                <th>|points</th>
             </tr>
         </thead>
         
 
         </table>
-        <div><p id="GPAspace"></p></div>
+        <div class="divGPAspace"><h3 class="GPAspace" id="GPAspace">0</h3></div>
 
         
-        <button id="clearbutton" onClick="window.location.reload();">Clear</button>
+        <button class="clear" id="clearbutton" onClick="window.location.reload();">Clear</button>
         
 
     </div>
